@@ -1,0 +1,44 @@
+body {
+  text-align: center;
+}
+
+nav {
+  background: black;
+  padding: 20px;
+}
+
+nav a {
+  color: salmon;
+  font-weight: bold;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+header {
+  background: url('http://0.media.collegehumor.cvcdn.com/98/74/8845e2d8c585057935f537024d9e1388.jpg');
+  background-size: cover;
+  background-position: center;
+  padding: 200px 0;
+}
+
+header h1 {
+  font-size: 4em;
+  background: white;
+  display: inline-block;
+  padding: 10px;
+  margin: 0;
+}
+
+header h3 {
+  color: white;
+}
+
+.Procedures, .Contacts {
+  text-align: left;
+  padding: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
